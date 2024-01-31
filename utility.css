@@ -1,0 +1,60 @@
+.flex{
+    display: flex;
+}
+
+.border{
+    border: solid 2px #d10c0c;
+    margin: 3px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Style the scrollbar for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #222; /* Dark background color for the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark color for the scrollbar handle */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3d3333; /* Darker color on hover */
+}
+
+/* Style the scrollbar for Firefox */
+body {
+  scrollbar-color: #333 #222; /* Dark color for the scrollbar handle and track */
+}
+
